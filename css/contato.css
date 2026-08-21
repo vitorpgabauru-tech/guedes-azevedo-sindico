@@ -1,0 +1,39 @@
+.contato {
+  padding: var(--espaco-xl) var(--espaco-md);
+}
+
+.contato h2 {
+  color: var(--cor-primaria);
+  margin-bottom: var(--espaco-lg);
+  text-align: center;
+}
+
+.contato__form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-sm);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contato__form label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.contato__form input,
+.contato__form textarea {
+  padding: var(--espaco-sm);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.contato__form button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: var(--espaco-sm);
+  border-radius: 4px;
+  margin-top: var(--espaco-sm);
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.sobre {
+  padding: var(--espaco-xl) var(--espaco-md);
+}
+
+.sobre h2 {
+  color: var(--cor-primaria);
+  margin-bottom: var(--espaco-md);
+}
+
+@media (min-width: 1024px) {
+  .sobre {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}

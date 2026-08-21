@@ -1,0 +1,22 @@
+:root {
+  /* Cores */
+  --cor-primaria: #1c3f60;
+  --cor-secundaria: #2f80a8;
+  --cor-destaque: #f2a541;
+  --cor-fundo: #ffffff;
+  --cor-fundo-alt: #f5f7fa;
+  --cor-texto: #222831;
+  --cor-texto-claro: #ffffff;
+
+  /* Tipografia */
+  --fonte-base: "Segoe UI", Arial, sans-serif;
+
+  /* Espaçamento */
+  --espaco-sm: 0.5rem;
+  --espaco-md: 1rem;
+  --espaco-lg: 2rem;
+  --espaco-xl: 4rem;
+
+  /* Breakpoints usados nas media queries (referência, não é CSS válido) */
+  /* tablet: 768px | desktop: 1024px */
+}

@@ -11,9 +11,17 @@
 }
 
 .header__logo {
-  color: var(--cor-texto-claro);
-  font-weight: bold;
-  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+}
+
+.header__logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 .header__menu-toggle {
@@ -58,17 +66,4 @@
     margin-top: 0;
     gap: var(--espaco-lg);
   }
-}
-.header__logo {
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 0.35rem 0.6rem;
-  border-radius: 6px;
-}
-
-.header__logo-img {
-  height: 50px;
-  width: auto;
-  display: block;
 }

@@ -59,8 +59,20 @@
     gap: var(--espaco-lg);
   }
 }
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .header__logo-img {
-  height: 40px;
+  height: 32px;
   width: auto;
   display: block;
+}
+
+.header__logo-text {
+  color: var(--cor-texto-claro);
+  font-weight: bold;
+  font-size: 1.15rem;
 }

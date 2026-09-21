@@ -59,3 +59,8 @@
     gap: var(--espaco-lg);
   }
 }
+.header__logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
+}

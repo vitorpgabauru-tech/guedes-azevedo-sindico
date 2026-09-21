@@ -17,7 +17,7 @@
 .hero__cta {
   display: inline-block;
   background-color: var(--cor-destaque);
-  color: var(--cor-texto);
+  color: var(--cor-texto-claro);
   padding: var(--espaco-sm) var(--espaco-lg);
   border-radius: 4px;
   font-weight: bold;
